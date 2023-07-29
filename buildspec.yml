@@ -4,9 +4,6 @@ phases:
   install:
     runtime-versions:
       nodejs: 18
-    commands:
-        - sudo yum update -y
-        # install npm   
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
@@ -16,7 +13,7 @@ phases:
       - echo Build started on 'date'
       - npm run build  
 artifacts:
-  # include all files required to run application
+  # include all files required to run the application.
   # notably excluded is node_modules, as this will cause overwrite error on deploy
   files:
     - public/**/*
