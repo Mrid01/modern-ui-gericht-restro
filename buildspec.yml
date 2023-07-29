@@ -4,6 +4,8 @@ phases:
   install:
     runtime-versions:
       nodejs: 18
+    commands:
+        - sudo apt-get update -y
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
