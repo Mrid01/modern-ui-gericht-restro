@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/server/src
+cd /home/ec2-user/server/src
 npm start
 pm2 start npm --name "gericht" -- start
 pm2 startup
