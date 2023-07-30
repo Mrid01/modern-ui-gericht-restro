@@ -1,6 +1,5 @@
 #!/bin/bash
 cd /home/ec2-user/server/
-npm start
 pm2 startup
 pm2 serve build 3003 --spa
 pm2 save
