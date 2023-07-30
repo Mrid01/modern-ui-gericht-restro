@@ -1,5 +1,4 @@
 #!/bin/bash
 cd /home/ec2-user/server
-npm install
-npm install --save react create-react-app react-dom react-scripts react-particles-js
+npm i
 npm install pm2 -g
