@@ -1,10 +1,14 @@
 # Restaurant Landing Page
-### [Live Site](https://gericht-restaurant.com/)
+### [Live Site](https://awstest.online/)
 
 ![Restaurant Landing Page](https://i.ibb.co/5jxBKpw/image.png)
 
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://resource.jsmasterypro.com/newsletter
+# A Word
+This beautiful website is made by [Adrian Hajdin - JS Mastery](https://github.com/adrianhajdin), a huge shoutout to him!
+I've deployed this website on the cloud using AWS CodePipeline with complete CI/CD automation.
+AWS CodePipeline -> (Github -> aws codebuild -> aws codedeploy) -> AWS EC2 -> AWS Route53
+Please feel free to reach out if you have any questions.
+Have a good one!
 
 ## Introduction
 This is a code repository for the corresponding video tutorial. In this video, we're going to build a Modern UI/UX Restaurant Landing Page Website
